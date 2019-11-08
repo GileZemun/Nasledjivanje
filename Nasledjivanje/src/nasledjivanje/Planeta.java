@@ -1,20 +1,19 @@
 package nasledjivanje;
 
 public class Planeta extends SvemirskiObjekat {
-		
+	
 	public boolean voda;
 	
-	public Planeta (String i, double z, boolean voda) {
+	public Planeta(String ime, double zapremina, boolean voda) {
 		
-		super(i,z);
+		super(ime, zapremina);
 		this.voda = voda;
 		
 	}
 	
 	@Override
-	public void dobrodosli (String ime) {
-		System.out.println("Dobrodosli na planetu " + ime);
+	public void dobrodosli(String ime) {
+		System.out.println("Dobrodosli na planetu " + ime );
 	}
 
-	
 }
